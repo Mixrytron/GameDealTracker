@@ -1,0 +1,128 @@
+body {
+  background-color: black;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+button:hover {
+  cursor: grab;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  gap: 20px;
+}
+
+#header button {
+  border: 0px;
+  background-color: transparent;
+  font-size: 15px;
+  color: white ;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  background-color: white;
+}
+
+#card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 85%;
+  width: 60vw;
+  border: 3px solid lightgray;
+  border-radius: 4%;
+  margin: 0px;
+  padding: 10px;
+  gap: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  padding: 10px;
+  width: 60%;
+}
+
+#search button {
+  height: 40px;
+  font-size: 24px;
+}
+
+#wishlistTitle {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#refreshButton {
+  width: 10%;
+  font-size: 24px;
+}
+
+#dealsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 1;
+  width: 90%; 
+  overflow-y: auto; 
+}
+
+.game-deal {
+  display: flex;
+  height: 80px;
+  width: 100%; 
+  margin-top: 5px;
+  background-color: #f0f0f0;
+}
+
+.game-deal a {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 1 90%; 
+  margin: 0px;
+  font-size: 12px;
+}
+
+.thumb {
+  width: 25%;
+  height: 100%;
+}
+
+.title {
+  width: 60%;
+}
+
+.price {
+  width: 10%;
+}
+
+.game-deal button {
+  flex: 0 1 10%;
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+
+  
