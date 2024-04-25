@@ -106,7 +106,7 @@ const displayDeals = (dealList) => {
 }
 
 const toggleWishlist = (gameID, button) => {
-    const wishlist = JSON.parse(localStorage.getItem('wishlist'));
+    const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
     if (wishlist.includes(gameID)) {
         wishlist.splice(wishlist.indexOf(gameID), 1);
         button.textContent = '+';
