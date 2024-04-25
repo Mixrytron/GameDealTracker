@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('DOM loaded')
     const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
     if (wishlist.length > 0) {
         loadWishlist();
